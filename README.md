@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" width="100" alt="Nullcore Logo" style="border-radius: 20px;" />
+  <img src="./docs/mockups/banner.png" alt="Nullcore Logo" />
 </p>
 
 <h1 align="center">Nullcore – Where Reality Breaks, and You Play the Bug</h1>
