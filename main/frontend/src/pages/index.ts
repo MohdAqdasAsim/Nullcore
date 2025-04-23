@@ -1,3 +1,4 @@
 import Home from "./Home";
+import WorldSelection from "./WorldSelection";
 
-export { Home };
+export { Home, WorldSelection };

@@ -3,33 +3,35 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="relative w-screen h-screen flex flex-col items-center justify-center bg-home bg-cover bg-center bg-no-repeat">
+    <>
       <h1 className="text-9xl text-white font-glitch">Nullcore</h1>
       <div className="p-4 flex flex-col gap-2">
         <Link
-          to="/"
+          to="/world-selection"
           className="border-y-3 border-x-6 border-neon-teal px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold">Singleplayer</p>
+          <p className="text-2xl text-white font-bold uppercase">
+            Singleplayer
+          </p>
         </Link>
         <Link
           to="/"
           className="border-y-3 border-x-6 border-neon-pink px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold">Multiplayer</p>
+          <p className="text-2xl text-white font-bold uppercase">Multiplayer</p>
         </Link>
         <Link
           to="/"
           className="border-y-3 border-x-6 border-neon-teal px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold">Leaderboard</p>
+          <p className="text-2xl text-white font-bold uppercase">Leaderboard</p>
         </Link>
       </div>
 
       <span className="absolute bottom-10 right-20 w-12 h-12 rounded-full border-4 border-white flex items-center justify-center cursor-pointer">
         <FaCog size={32} color="white" />
       </span>
-    </div>
+    </>
   );
 };
 
