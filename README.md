@@ -1,6 +1,6 @@
-<!-- <p align="center">
-  <img src="docs/mockups/banner.png" alt="Nullcore Logo" />
-</p> -->
+<p align="center">
+  <img src="./logo.png" width="100" alt="Nullcore Logo" style="border-radius: 20px;" />
+</p>
 
 <h1 align="center">Nullcore – Where Reality Breaks, and You Play the Bug</h1>
 
