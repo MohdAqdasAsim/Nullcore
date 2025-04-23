@@ -1,11 +1,16 @@
+import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Home } from "./pages";
+import GlitchLoader from "./components/GlitchLoader";
+
+const Home = lazy(() => import("./pages/Home"));
 
 const App = () => {
   return (
-    <Routes>
-      <Route index path="/" element={<Home />} />
-    </Routes>
+    <Suspense fallback={<GlitchLoader />}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Suspense>
   );
 };
 
