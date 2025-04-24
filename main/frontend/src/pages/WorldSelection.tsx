@@ -9,7 +9,7 @@ const WorldSelection = () => {
       </h1>
       <div className="p-4 flex flex-row gap-2 mt-2">
         <Link
-          to="world-1"
+          to="/world/1"
           className="border-6 border-[#001d32] rounded-2xl w-98"
         >
           <img
@@ -19,7 +19,7 @@ const WorldSelection = () => {
           />
         </Link>
         <Link
-          to="world-2"
+          to="/world/2"
           className="border-6 border-[#080d38] rounded-2xl w-98"
         >
           <img

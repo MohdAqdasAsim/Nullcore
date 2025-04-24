@@ -10,7 +10,7 @@ const Home = () => {
           to="/world-selection"
           className="border-y-3 border-x-6 border-neon-teal px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold uppercase">
+          <p className="text-2xl text-white font-extrabold uppercase">
             Singleplayer
           </p>
         </Link>
@@ -18,13 +18,17 @@ const Home = () => {
           to="/"
           className="border-y-3 border-x-6 border-neon-pink px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold uppercase">Multiplayer</p>
+          <p className="text-2xl text-white font-extrabold uppercase">
+            Multiplayer
+          </p>
         </Link>
         <Link
           to="/"
           className="border-y-3 border-x-6 border-neon-teal px-4 py-2 flex items-center justify-center rounded-xl cursor-pointer"
         >
-          <p className="text-2xl text-white font-bold uppercase">Leaderboard</p>
+          <p className="text-2xl text-white font-extrabold uppercase">
+            Leaderboard
+          </p>
         </Link>
       </div>
 

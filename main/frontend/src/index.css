@@ -3,6 +3,8 @@
 
 @theme {
     --background-image-home: url('/images/backgrounds/bg-1.png');
+    --background-image-world-one: url('/images/backgrounds/world-1.png');
+    --background-image-world-two: url('/images/backgrounds/world-2.png');
     --font-glitch: "Rubik Glitch", sans-serif;
     --color-neon-pink: #da04a7;
     --color-neon-teal: #2976c2;
